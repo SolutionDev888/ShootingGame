@@ -1,0 +1,12 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_AI
+AStarRepathRate 0.25
+AStarCanSearch true
+AStarPickNextWaypointDist 2
+AStarForwardLook 1
+SensesHearingCheckRate 0
+SensesViewCheckRate 0
+MovementRunSpeed 5

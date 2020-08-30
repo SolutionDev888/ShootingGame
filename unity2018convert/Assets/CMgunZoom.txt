@@ -1,0 +1,72 @@
+///////////////////////////////////////////////////////////
+// Component Preset Script
+///////////////////////////////////////////////////////////
+
+ComponentType vp_FPWeapon
+RenderingZoomDamping 0.1
+RenderingFieldOfView 7.3
+RenderingClippingPlanes 0.01 10
+RenderingZScale 1
+PositionSpringStiffness 0.045
+PositionSpringDamping 0.45
+PositionFallRetract 1
+PositionPivotSpringStiffness 0.035
+PositionPivotSpringDamping 0.55
+PositionKneeling 0.1058716
+PositionKneelingSoftness 1
+PositionWalkSlide 0.2 0.5 0.2
+PositionPivot 0 0 0.3
+RotationPivot 0 0 0
+PositionInputVelocityScale 1
+PositionMaxInputVelocity 20
+RotationSpringStiffness 0.025
+RotationSpringDamping 0.35
+RotationPivotSpringStiffness 0.01
+RotationPivotSpringDamping 0.25
+RotationKneeling 0
+RotationKneelingSoftness 1
+RotationLookSway 2 1 0
+RotationStrafeSway 1 0 0
+RotationFallSway 1 -1 -5
+RotationSlopeSway 0.75
+RotationInputVelocityScale 1
+RotationMaxInputVelocity 5
+RetractionDistance 0.5
+RetractionOffset 0 0
+RetractionRelaxSpeed 0.25
+ShakeSpeed 0.3
+ShakeAmplitude 0.01 0 0.01
+BobRate 1 -0.5 0.5 0.5
+BobAmplitude -0.4 -1.5 -0.75 -0.01
+BobInputVelocityScale 8
+BobMaxInputVelocity 50
+BobRequireGroundContact True
+StepPositionForce 0 -0.0012 -0.0012
+StepRotationForce 0.015 0.015 -0.12
+StepSoftness 9
+StepMinVelocity 35
+StepPositionBalance 0
+StepRotationBalance 0
+StepForceScale 0.35
+LookDownActive False
+LookDownYawLimit 60
+LookDownPositionOffsetMiddle 0.32 -0.37 0.78
+LookDownPositionOffsetLeft 0.27 -0.31 0.7
+LookDownPositionOffsetRight 0.6 -0.41 0.86
+LookDownPositionSpringPower 1
+LookDownRotationOffsetMiddle -3.9 2.24 4.69
+LookDownRotationOffsetLeft -7 -10.5 15.6
+LookDownRotationOffsetRight -9.2 -9.8 48.84
+LookDownRotationSpringPower 1
+AmbientInterval 2.5 7.5
+PositionExitOffset 0 -1 0
+RotationExitOffset 40 0 0
+DoSpringsInLateUpdate False
+PositionOffset -0.3625 -0.0135 0.94
+PositionSpring2Stiffness 1
+PositionSpring2Damping 1
+RotationOffset 0 90 -1.4
+RotationSpring2Stiffness 1
+RotationSpring2Damping 1
+AnimationType 1
+AnimationGrip 1
